@@ -12,6 +12,10 @@ function defaultState() {
       {
         title: "Ten Seconds Treasure Hunt",
         url: "http://js.godsboss.org/ten-seconds-treasure-hunt/"
+      },
+      {
+        title: "Torpedo 'em up!",
+        url: "http://js.godsboss.org/torpedo-em-up/"
       }
     ]
   }
