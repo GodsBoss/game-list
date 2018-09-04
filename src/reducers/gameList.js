@@ -20,6 +20,10 @@ function defaultState() {
       {
         title: "Shape/Shift",
         url: "http://js.godsboss.org/shape-shift/"
+      },
+      {
+        title: "Planet Gaiardian",
+        url: "http://js.godsboss.org/planet-gaiardian/"
       }
     ]
   }
