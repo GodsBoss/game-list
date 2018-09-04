@@ -16,6 +16,10 @@ function defaultState() {
       {
         title: "Torpedo 'em up!",
         url: "http://js.godsboss.org/torpedo-em-up/"
+      },
+      {
+        title: "Shape/Shift",
+        url: "http://js.godsboss.org/shape-shift/"
       }
     ]
   }
