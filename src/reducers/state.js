@@ -1,4 +1,4 @@
-function list(state = defaultState(), action) {
+function reduce(state = defaultState(), action) {
   return state
 }
 
@@ -29,4 +29,4 @@ function defaultState() {
   }
 }
 
-export default list
+export default reduce

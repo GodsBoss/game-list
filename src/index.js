@@ -1,4 +1,4 @@
-import list from './reducers/gameList'
+import state from './reducers/state'
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const store = createStore(list)
+const store = createStore(state)
 
 render(
   <Provider store={store}>
