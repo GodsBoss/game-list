@@ -3,18 +3,14 @@ import { connect } from 'react-redux'
 import './App.css';
 
 const PresApp = (data) => {
-  const rows = data.games.map(
+  const items = data.games.map(
     (game) =>
-      <tr>
-        <td>{game.title}</td>
-      </tr>
+      <li>{game.title}</li>
   )
   return (
-    <table>
-      <tbody>
-        {rows}
-      </tbody>
-    </table>
+    <ul>
+      {items}
+    </ul>
   )
 }
 
