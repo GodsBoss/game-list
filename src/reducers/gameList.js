@@ -6,7 +6,8 @@ function defaultState() {
   return {
     games: [
       {
-        title: "Timining 1D"
+        title: "Timining 1D",
+        url: "http://js.godsboss.org/timining-1d/"
       }
     ]
   }
