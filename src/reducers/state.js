@@ -15,6 +15,9 @@ function defaultState() {
             "crafting"
           ]
         },
+        meta: {
+          src: "https://github.com/GodsBoss/Timining-1D"
+        },
         ld: {
           no: 26,
           url: "http://ludumdare.com/compo/ludum-dare-26/?uid=20672"
@@ -31,6 +34,9 @@ function defaultState() {
             "time limit"
           ]
         },
+        meta: {
+          src: "https://github.com/GodsBoss/ten-seconds-treasure-hunt"
+        },
         ld: {
           no: 27,
           url: "http://ludumdare.com/compo/ludum-dare-27/?uid=20672"
@@ -45,6 +51,9 @@ function defaultState() {
           tags: [
             "shooter"
           ]
+        },
+        meta: {
+          src: "https://github.com/GodsBoss/torpedo-em-up"
         },
         ld: {
           no: 29,
@@ -61,6 +70,9 @@ function defaultState() {
             "puzzle"
           ]
         },
+        meta: {
+          src: "https://github.com/GodsBoss/shape-shift"
+        },
         ld: {
           no: 35,
           url: "http://ludumdare.com/compo/ludum-dare-35/?uid=20672"
@@ -76,6 +88,9 @@ function defaultState() {
             "puzzle",
             "time limit"
           ]
+        },
+        meta: {
+          src: "https://github.com/GodsBoss/planet-gaiardian"
         },
         ld: {
           no: 34,
