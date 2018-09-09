@@ -10,7 +10,10 @@ function defaultState() {
         game: {
           title: "Timining 1D",
           description: "Gather wood, mine resources and craft the epic crown of nerdiness.",
-          url: "http://js.godsboss.org/timining-1d/"
+          url: "http://js.godsboss.org/timining-1d/",
+          tags: [
+            "crafting"
+          ]
         },
         ld: {
           no: 26,
@@ -22,7 +25,11 @@ function defaultState() {
         game: {
           title: "Ten Seconds Treasure Hunt",
           description: "Find a treasure... you have ten seconds.",
-          url: "http://js.godsboss.org/ten-seconds-treasure-hunt/"
+          url: "http://js.godsboss.org/ten-seconds-treasure-hunt/",
+          tags: [
+            "puzzle",
+            "time limit"
+          ]
         },
         ld: {
           no: 27,
@@ -34,7 +41,10 @@ function defaultState() {
         game: {
           title: "Torpedo 'em up!",
           description: "A simple horizontal shoot 'em up.",
-          url: "http://js.godsboss.org/torpedo-em-up/"
+          url: "http://js.godsboss.org/torpedo-em-up/",
+          tags: [
+            "shooter"
+          ]
         },
         ld: {
           no: 29,
@@ -46,7 +56,10 @@ function defaultState() {
         game: {
           title: "Shape/Shift",
           description: "Shift shapes which also can shapeshift... or so.",
-          url: "http://js.godsboss.org/shape-shift/"
+          url: "http://js.godsboss.org/shape-shift/",
+          tags: [
+            "puzzle"
+          ]
         },
         ld: {
           no: 35,
@@ -58,7 +71,11 @@ function defaultState() {
         game: {
           title: "Planet Gaiardian",
           description: "You are a planet gaiardian, destined to inspire growth.",
-          url: "http://js.godsboss.org/planet-gaiardian/"
+          url: "http://js.godsboss.org/planet-gaiardian/",
+          tags: [
+            "puzzle",
+            "time limit"
+          ]
         },
         ld: {
           no: 34,
