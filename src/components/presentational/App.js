@@ -4,7 +4,7 @@ import React from 'react'
 const App = (data) => {
   const items = data.games.map(
     (game) =>
-      <li>{game.title}</li>
+      <li key={game.id}>{game.title}</li>
   )
   return (
     <ul>
