@@ -1,3 +1,9 @@
+import planetGaiardian from './images/planet-gaiardian.png'
+import shapeShift from './images/shape-shift.png'
+import tenSecondsTreasureHunt from './images/ten-seconds-treasure-hunt.png'
+import timining1d from './images/timining-1d.png'
+import torpedoEmUp from './images/torpedo-em-up.png'
+
 function reduce(state = defaultState(), action) {
   return state
 }
@@ -13,7 +19,8 @@ function defaultState() {
           url: "http://js.godsboss.org/timining-1d/",
           tags: [
             "crafting"
-          ]
+          ],
+          image: timining1d
         },
         meta: {
           src: "https://github.com/GodsBoss/Timining-1D"
@@ -32,7 +39,8 @@ function defaultState() {
           tags: [
             "puzzle",
             "time limit"
-          ]
+          ],
+          image: tenSecondsTreasureHunt
         },
         meta: {
           src: "https://github.com/GodsBoss/ten-seconds-treasure-hunt"
@@ -50,7 +58,8 @@ function defaultState() {
           url: "http://js.godsboss.org/torpedo-em-up/",
           tags: [
             "shooter"
-          ]
+          ],
+          image: torpedoEmUp
         },
         meta: {
           src: "https://github.com/GodsBoss/torpedo-em-up"
@@ -68,7 +77,8 @@ function defaultState() {
           url: "http://js.godsboss.org/shape-shift/",
           tags: [
             "puzzle"
-          ]
+          ],
+          image: shapeShift
         },
         meta: {
           src: "https://github.com/GodsBoss/shape-shift"
@@ -87,7 +97,8 @@ function defaultState() {
           tags: [
             "puzzle",
             "time limit"
-          ]
+          ],
+          image: planetGaiardian
         },
         meta: {
           src: "https://github.com/GodsBoss/planet-gaiardian"

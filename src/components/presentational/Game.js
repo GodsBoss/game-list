@@ -11,6 +11,9 @@ const Game = ({ game, ld }) => {
     <div class="ld">
       <a href={ld.url}>#{ld.no}</a>
     </div>
+    <div class="image">
+      <img src={game.image} alt="" />
+    </div>
     <div class="description">
       {game.description}
     </div>
